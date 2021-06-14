@@ -45,6 +45,29 @@ header{
     margin: 40px 0;
 }
 
+.banner-first h2{
+   font-size: 175px !important;
+}
+.banner.banner-first h5{
+   font-size: 27px !important;
+   font-family: 'MyriadPro-Regular' !important;
+   max-width: 1340px;
+}
+.banner-second{
+    display: none;
+}
+.banner.banner-first form{
+    margin-left: 650px;
+    margin-top: 30px;
+}
+.banner.banner-first .form-group{
+    margin-bottom: 12px;
+}
+.banner.banner-first input{
+    border: none;
+    padding: 8px 20px;
+    width: 450px;
+}
 .banner{
 	position: relative;
 	background: url("../images/bg_new.png") no-repeat 0 0/cover;
