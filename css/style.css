@@ -67,6 +67,7 @@ header{
     border: none;
     padding: 8px 20px;
     width: 450px;
+    background-color: #f1f1f1;
 }
 .banner{
 	position: relative;
@@ -85,6 +86,15 @@ header{
 	font-size: 112px;
     font-family: 'South';
     padding-left: 650px;
+}
+.offer-btn span{
+        color: #FA0F0C;
+    font-family: 'bebas_neueregular';
+    text-transform: uppercase;
+    font-size: 40px;
+    display: inline-block;
+    padding-left: 92px;
+    padding-top: 15px;
 }
 .banner h5{
 	
@@ -113,11 +123,19 @@ header{
 	margin-right: 7px;
 }
 .offer-btn{
-	position: relative;
-	 padding-left: 650px;
+	    position: relative;
+    margin-left: 451px;
+    z-index: 1;
+    padding-left: 200px;
+    margin-top: 44px;
+    display: inline-block;
 }
 .offer-btn img{
 	position: absolute;
+    left: 161px;
+    z-index: -1;
+    top: -37px;
+    width: 410px;
 }
 .tik-width{
 	max-height: 490px;
@@ -271,4 +289,43 @@ footer li a{
 	    font-size: 18px;
     color: #000;
     font-family: 'MyriadPro-Regular';
+}
+
+
+
+
+@media only screen and (max-width: 1050px) {
+    .pdf-of {padding-left: 0;}
+    .width-fort {height: auto;object-fit: cover;width: auto;}
+    .tik-width {max-height: 100%;width: 100%;}
+    .banner-first h2 {font-size: 85px !important;}
+    .banner h2,.banner.banner-first h5,.offer-btn{padding-left: 390px;}
+    .banner.banner-first form{margin-left: 390px;}
+    .banner.banner-first h5 {font-size: 21px !important;max-width: 80%;}
+    .offer-form{display: block;max-width: 65%;}
+    .offer-form .form-group{margin-bottom: 20px;}
+}
+@media only screen and (max-width: 979px) {
+    .offer-first h2{font-size: 50px;}
+    .offer-first h2 span{font-size: 40px;}
+    .wheel{display: none;}
+    .banner h2, .banner.banner-first h5, .offer-btn{padding-left: 0;}
+    .banner.banner-first form{margin-left: 0;}
+    .width-fort{margin-top: 20px;}
+    .offer-btn img{position: static;}
+    .banner{    padding: 5% 6%;}
+    .banner.banner-first h5{max-width: 100%;}
+}
+@media only screen and (max-width: 767px) {
+    .banner.banner-first input{width: 100%;}
+    .mar-lf {margin-left: 0;}
+    .offer-first .box1 h5, .offer-first .box2 h5, .offser-second .box2 h5, .offser-second .box5 h5, .offser-second .box3 h5{font-size: 19px;}
+    .offer-first .box1 h5 span, .offer-first .box2 h5 span, .offser-second .box2 h5 span, .offser-second .box5 h5 span, .offser-second .box3 h5 span{font-size:24px;}
+    .offer-first a, .offser-second .box2 a, .offser-second .box5 a, .offser-second .box3 a{font-size: 25px;    margin-top: 10px;}
+    .offer-top{margin-top: 50px;font-size: 46px;}
+    .offer-form{max-width: 80%;}
+    footer {margin-top: 60px;margin-bottom: 40px;}
+    footer li a{font-size: 14px;}
+    .offser-second .box3{top: 7%;}
+    .banner-first h2 {font-size: 65px !important;}
 }
