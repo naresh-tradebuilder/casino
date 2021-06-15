@@ -80,7 +80,7 @@ header{
    position: absolute;
     left: -5px;
     top: -120px;
-    width: 33%;
+    width: 36%;
  }   
 .banner h2{
 	font-size: 112px;
@@ -333,4 +333,5 @@ footer li a{
     .offser-second .box3{top: 7%;}
     .banner-first h2 {font-size: 65px !important;}
     .offer-btn{width: 280px;}
+    .offer-btn img{}
 }
