@@ -273,8 +273,16 @@ header{
     text-transform: uppercase;
 }
 
-
-
+.table{
+        position: absolute;
+    left: 220px;
+    top: 240px;
+    width: 20%;
+}
+.banner.banner-third{display: none;}
+.banner.banner-third h6{
+        max-width: 1461px;
+}
 
 footer {
 	text-align: center;
