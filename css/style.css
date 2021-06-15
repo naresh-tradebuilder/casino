@@ -299,11 +299,16 @@ footer li a{
     .width-fort {height: auto;object-fit: cover;width: auto;}
     .tik-width {max-height: 100%;width: 100%;}
     .banner-first h2 {font-size: 85px !important;}
-    .banner h2,.banner.banner-first h5,.offer-btn{padding-left: 390px;}
-    .banner.banner-first form{margin-left: 390px;}
+    .banner h2,.banner.banner-first h5,.offer-btn{padding-left: 0px;}
+    .banner.banner-first form{margin-left: 0px;}
     .banner.banner-first h5 {font-size: 21px !important;max-width: 80%;}
     .offer-form{display: block;max-width: 65%;}
     .offer-form .form-group{margin-bottom: 20px;}
+    .banner{padding: 10% 5%;}
+    .offer-btn{margin-left: 0;width: 370px;}
+    .wheel{display: none;}
+    .offer-btn img{left: 0;}
+    .offer-btn span{font-size: 30px;padding-left: 110px;padding-top: 15px;}
 }
 @media only screen and (max-width: 979px) {
     .offer-first h2{font-size: 50px;}
@@ -311,8 +316,7 @@ footer li a{
     .wheel{display: none;}
     .banner h2, .banner.banner-first h5, .offer-btn{padding-left: 0;}
     .banner.banner-first form{margin-left: 0;}
-    .width-fort{margin-top: 20px;}
-    .offer-btn img{position: static;}
+    .width-fort{margin-top: 20px;}    
     .banner{    padding: 5% 6%;}
     .banner.banner-first h5{max-width: 100%;}
 }
@@ -328,4 +332,5 @@ footer li a{
     footer li a{font-size: 14px;}
     .offser-second .box3{top: 7%;}
     .banner-first h2 {font-size: 65px !important;}
+    .offer-btn{width: 280px;}
 }
