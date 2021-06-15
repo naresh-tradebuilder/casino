@@ -292,8 +292,16 @@ footer li a{
 }
 
 
+@media only screen and (max-width: 1410px) {
+    .banner-first h2 {font-size: 120px !important;}
+    .banner {padding: 5% 0;}
+}
+@media only screen and (max-width: 1300px) {
+    .banner h2,.banner h5{padding-left: 500px;}
+    .banner.banner-first form{margin-left: 500px;}
+    .offer-btn{    margin-left: 310px;}
 
-
+}
 @media only screen and (max-width: 1050px) {
     .pdf-of {padding-left: 0;}
     .width-fort {height: auto;object-fit: cover;width: auto;}
