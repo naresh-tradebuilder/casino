@@ -77,11 +77,20 @@ header{
 	position: relative;
 }
 .wheel{
-   position: absolute;
-    left: -5px;
+  position: absolute;
+    left: 0px;
     top: -120px;
     width: 36%;
- }   
+ } 
+ .wheel img{
+    margin-left: -600px;
+ }  
+ .location-icon{
+      position: absolute;
+    left: 443px;
+    top: 420px;
+    width: 11%;
+ }
 .banner h2{
 	font-size: 112px;
     font-family: 'South';
