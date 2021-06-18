@@ -34,10 +34,29 @@ ul{
 }
 a{text-decoration: none;}
 
+.first-btn{
+        position: absolute !important;
+    left: 470px;
+    bottom: 340px;
+    width: 470px;
+    margin-left: 0 !important
+}
+.first-btn span{
+        color: #FA0F0C;
+    font-family: 'bebas_neueregular';
+    text-transform: uppercase;
+    font-size: 40px;
+    display: inline-block;
+    padding-left: 70px;
+    padding-top: 15px;
+}
+.first-btn img{
+        margin-left: 0 !important;
+}
 
-
-
-
+.banner.banner-first{
+    padding: 10% 0 20%;
+}
 header{
 	    display: flex;
     justify-content: flex-end;
@@ -312,6 +331,25 @@ footer li a{
     .banner h2,.banner h5{padding-left: 700px;}
     .banner.banner-first form{margin-left: 700px;}
     .offer-btn{    margin-left: 500px;}
+    .first-btn{
+        position: absolute !important;
+    left: 528px;
+    bottom: 340px;
+    width: 470px;
+    margin-left: 0 !important
+}
+.first-btn span{
+        color: #FA0F0C;
+    font-family: 'bebas_neueregular';
+    text-transform: uppercase;
+    font-size: 40px;
+    display: inline-block;
+    padding-left: 70px;
+    padding-top: 15px;
+}
+.first-btn img{
+        margin-left: 0 !important;
+}
 
 }
 @media only screen and (max-width: 1410px) {
@@ -336,7 +374,7 @@ footer li a{
     .offer-form .form-group{margin-bottom: 20px;}
     .banner{padding: 10% 5%;}
     .offer-btn{margin-left: 0;width: 370px;}
-    .wheel{display: none;}
+    .wheel #turntable,.location-icon{display: none;}
     .offer-btn img{left: 0;}
     .offer-btn span{font-size: 30px;padding-left: 110px;padding-top: 15px;}
 }
