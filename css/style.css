@@ -232,7 +232,7 @@ header{
 .offer-first .box2{
 	background: rgba(255,255,255,.8);
 	  width: 350px;
-    padding: 30px 14px;
+    padding: 50px 14px;
     position: absolute;
         top: 20%;
 }
@@ -263,7 +263,7 @@ header{
 .offser-second .box3{
 	background: rgba(255,255,255,.8);
 	  width: 350px;
-    padding: 30px 14px;
+    padding: 50px 14px;
     position: absolute;
         top: 45%;
         left: 0;
@@ -393,7 +393,7 @@ footer li a{
     .mar-lf {margin-left: 0;}
     .offer-first .box1 h5, .offer-first .box2 h5, .offser-second .box2 h5, .offser-second .box5 h5, .offser-second .box3 h5{font-size: 19px;}
     .offer-first .box1 h5 span, .offer-first .box2 h5 span, .offser-second .box2 h5 span, .offser-second .box5 h5 span, .offser-second .box3 h5 span{font-size:24px;}
-    .offer-first a, .offser-second .box2 a, .offser-second .box5 a, .offser-second .box3 a{font-size: 25px;    margin-top: 10px;}
+    .offer-first a, .offser-second .box2 a, .offser-second .box5 a, .offser-second .box3 a{font-size: 25px; margin-top: 0px;}
     .offer-top{margin-top: 50px;font-size: 46px;}
     .offer-form{max-width: 80%;}
     footer {margin-top: 60px;margin-bottom: 40px;}
@@ -402,4 +402,8 @@ footer li a{
     .banner-first h2 {font-size: 65px !important;}
     .offer-btn{width: 280px;}
     .offer-btn img{}
+    .margin-right,.mr-left {margin-right: 0;}
+    .width-first{height: auto;}
+    .offer-first .box2,.offer-first .box1,.offser-second .box2,.offser-second .box3,.offser-second .box5{width: 250px;    padding: 20px 14px;}
+    .offer-first {margin-bottom: 15px;}
 }
