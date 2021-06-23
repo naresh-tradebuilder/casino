@@ -213,6 +213,7 @@ a{
     height: 56px;
     padding-left: 25px;
 }
+
 .bannner-bootm-width  form a{
        background-color: #FA0F0C;
     border: none;
@@ -392,6 +393,11 @@ header{
     justify-content: flex-end;
     padding: 20px 5%;
     background-color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
 }
 
 .banner-first h2{
@@ -517,6 +523,7 @@ header{
     background: url(../images/bg_new.png) no-repeat 0 0/cover;
     padding: 62px 0;
     color: #000;
+        margin-top: 100px;
 }
 .offer-first form{
     background-color: #fff;
