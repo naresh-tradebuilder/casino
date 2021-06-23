@@ -743,6 +743,9 @@ footer li a{
     .width-fort{margin-top: 20px;}    
     .banner{    padding: 5% 6%;}
     .banner.banner-first h5{max-width: 100%;}
+    .bannner-bootm-width {max-width: 100%;margin: 0 15px;}
+    .bannner-bootm-width form a{margin-top: 20px;}
+    .offer-first form{flex-wrap: wrap;}
 }
 @media only screen and (max-width: 767px) {
     .banner.banner-first input{width: 100%;}
@@ -762,4 +765,6 @@ footer li a{
     .width-first{height: auto;}
     .offer-first .box2,.offer-first .box1,.offser-second .box2,.offser-second .box3,.offser-second .box5{width: 250px;    padding: 20px 14px;}
     .offer-first {margin-bottom: 15px;}
+    .bannner-bootm-width .form-group{margin-bottom: 10px;}
+    .bannner-bootm-width .form-group,  .bannner-bootm-width .form-group  input{width: 100%;}
 }
