@@ -28,7 +28,7 @@
 *{  margin:0;   padding:0; }
 
 body{
-    background:#eaeaea;
+  
     color:#fff;
     font-size:18px;
     font-family: 'Exo 2', sans-serif;
@@ -199,7 +199,33 @@ a{
     height:68px;
     display:block;
 }
+.bannner-bootm-width {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.bannner-bootm-width  form{
+    display: flex;
+    justify-content: space-between; 
+}
+.bannner-bootm-width  form input{
+        border: 1px solid #000;
+    border-radius: 0;
+    height: 56px;
+    padding-left: 25px;
+}
+.bannner-bootm-width  form a{
+       background-color: #FA0F0C;
+    border: none;
+    color: #fff;
+    height: 56px;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 0;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
 
+}
 #spin:before{
     content:"";
     position:absolute;
@@ -362,10 +388,10 @@ a{text-decoration: none;}
     padding: 7% 0 10%;
 }
 header{
-	    display: flex;
+    display: flex;
     justify-content: flex-end;
-    padding-right: 5%;
-    margin: 25px 0;
+    padding: 20px 5%;
+    background-color: #fff;
 }
 
 .banner-first h2{
@@ -486,9 +512,15 @@ header{
 .offer-first h2{
 	text-align: center;
 	    font-size: 70px;
-    font-family: 'South';
-    margin-bottom: 70px;
+    font-family: 'South';   
     line-height: 60px;
+    background: url(../images/bg_new.png) no-repeat 0 0/cover;
+    padding: 62px 0;
+    color: #000;
+}
+.offer-first form{
+    background-color: #fff;
+    padding: 80px 0;
 }
 .offer-first h2 span{
 	 font-family: 'MyriadPro-Regular';
